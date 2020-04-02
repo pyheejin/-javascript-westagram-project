@@ -1,0 +1,237 @@
+.container {
+    margin: 0 auto;
+}
+
+.container::after {
+    content: ''; 
+    display: table; 
+    clear: both
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: white;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+nav div {
+    margin-top: 7px;
+    display: flex;
+    padding: 0 60px;
+}
+
+#nav_right {
+    float: right;
+    width: 200px;
+}
+
+#nav_right a {
+    margin-left: 30px;
+}
+
+#nav_left {
+    float: left;
+    margin-left: 20px;
+}
+
+nav div::after {
+    content: ''; 
+    display: table; 
+    clear: both
+}
+
+nav img, .card-icon img {
+    width: 27px;
+    height: 27px;
+}
+
+#logo_text {
+    width: 100px;
+    margin-left: 15px;
+}
+
+#serch {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#serch input {
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    outline:none;
+}
+
+#logo {
+    border-right: 1px solid black;
+    padding-right: 25px;
+}
+
+/* main */
+
+#section {
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feeds {
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    width: 500px; 
+    float: left;
+    margin-right: 15px;
+}
+
+article div:first-child {
+    margin: 5px 0 5px 5px;
+}
+
+.name {
+    font-weight: 800;
+}
+
+.main_right {
+    width: 300px;
+    float: left;
+    font-size: 13px;
+}
+
+.main_right div ul {
+    padding: 0;
+}
+
+.main_right div ul li:first-child {
+    float: left;
+}
+
+.main_right div ul li:nth-child(2){
+    padding-top: 4px;
+}
+
+.story, .recommendation {
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.main_right ul li {
+    list-style: none;
+}
+
+img {
+    width: 33px;
+    height: 33px;
+}
+
+.profile {
+    border-radius: 21px;
+    vertical-align: middle;
+    margin: 3px 10px 10px 5px;
+}
+
+.card-img-top {
+    width: 500px;
+    height: 500px;
+}
+
+article #more {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.card .card-icon a {
+    float: left;
+}
+
+.card .card-icon a:nth-child(3) {
+    margin-right: 295px;
+}
+
+.card .card-icon a:last-child {
+    float: right;
+    margin-right: 9px;
+}
+
+.card-icon img {
+    margin-left: 9px;
+}
+
+#card-comment {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#card-comment #card {
+    margin-left: 6px;
+}
+
+.comment {
+    border-top: 1px solid rgba(var(--b6a,219,219,219),1);
+    height: 50px;
+}
+
+.commentName {
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.comment input {
+    height: 50px;
+    width: 440px; 
+    margin:0;
+    padding-left: 10px;
+    display:inline;
+    box-sizing: border-box;
+    outline:none;
+}
+
+.comment button {
+    color: rgba(var(--d69,0,149,246),.3);
+    border: none;
+    font-size: 15px;
+}
+
+.comment input {
+    border: none;
+    font-size: 15px;
+}
+
+.deleteComment {
+    float: right;
+    margin-right: 10px;
+}
+
+.main_right .story div .name {
+    float: right;
+}
+
+.main_right .recommendation div .name {
+    float: right;
+}
+
+#story, .main_right .recommendation ul {
+    padding-left: 0;
+}
+
+.main_right .story ul .etc, .main_right .recommendation ul .etc, .main_right div ul .etc {
+    color: rgb(160, 158, 158);
+}
+
+.main_right .recommendation .follow {
+    float: right;
+    margin-top: -31px;
+}
+
+.main_right div:last-child span {
+    color: rgb(160, 158, 158);
+}
